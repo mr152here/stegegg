@@ -1,0 +1,14 @@
+[package]
+name = "stegegg"
+version = "0.1.0"
+edition = "2021"
+authors = ["Michal Kopera"]
+description = "Simple tool to hide message in image in random pixels and colors."
+license = "Apache-2.0"
+readme = "README.md"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[dependencies]
+getopts = "0.2"
+image = "0.24"
+sha2 = "0.10"
